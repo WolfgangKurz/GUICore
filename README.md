@@ -1,6 +1,8 @@
 ![GUICore.png](https://github.com/WolfgangKurz/GUICore/raw/master/GUICore.png)
 # GUICore #
 
+[![License](https://img.shields.io/github/license/WolfgangKurz/GUICore.svg?style=flat-square)](https://github.com/WolfgangKurz/GUICore/blob/master/LICENSE)
+
 **Create your window-based programs easily!**
 
 GUICore is C++ based library, so you can build your application very easily, and quickly!
