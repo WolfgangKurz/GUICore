@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="GUICore">
+      <UniqueIdentifier>{2f22ed29-7399-4ebb-8219-d8aee8bef44d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUICore\GUIWindow">
+      <UniqueIdentifier>{3d7cf030-e862-4ffc-90f6-21875bd1e0da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUICore\GUIEvent">
+      <UniqueIdentifier>{d260c6c7-5b32-4ea7-a606-99c5636e3289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUICore\GUIObject">
+      <UniqueIdentifier>{65a3ebac-48b2-4bba-bd37-2c5ceac4e9ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUICore\GUIWidget">
+      <UniqueIdentifier>{9be718d4-8974-41bd-bcf9-86a6044a9bea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUIWidgets">
+      <UniqueIdentifier>{d5fa618f-a43f-4628-959a-c82f6341daa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUIWidgets\Legacy">
+      <UniqueIdentifier>{09c6176e-e383-4fdc-b2aa-c070e926859b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUIWidgets\Legacy\Menu">
+      <UniqueIdentifier>{697b266f-ca1a-4af7-84b5-acf08a0f50b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUIWidgets\Neo">
+      <UniqueIdentifier>{9607e8c3-d5b9-416b-adb2-17b4c41854ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUIWidgets\Neo\Statusbar">
+      <UniqueIdentifier>{7452f4e2-0737-4be5-89b6-d3d634f27275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUIWidgets\Neo\Button">
+      <UniqueIdentifier>{cc7bace9-e193-469d-a363-ebe251e91918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUIWidgets\Legacy\Canvas">
+      <UniqueIdentifier>{79d93f64-730e-4dd8-b8b6-94d813693bf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUIWidgets\Legacy\TextBox">
+      <UniqueIdentifier>{d7895fd7-476e-4320-85b5-98b58d8d4d7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUIWidgets\Legacy\Button">
+      <UniqueIdentifier>{86672aa2-10c8-4557-a85b-824945da236f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUIWidgets\Neo\WidgetMenu">
+      <UniqueIdentifier>{715c3cb5-faac-4a60-a955-4605ec134c5e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GUICore\GUICore.cpp">
+      <Filter>GUICore</Filter>
+    </ClCompile>
+    <ClCompile Include="GUICore\GUIObject.cpp">
+      <Filter>GUICore\GUIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GUICore\GUIWindow.cpp">
+      <Filter>GUICore\GUIWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="GUICore\GUIWidget.cpp">
+      <Filter>GUICore\GUIWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIWidgets\Legacy\Menu.cpp">
+      <Filter>GUIWidgets\Legacy\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIWidgets\Legacy\MenuItem.cpp">
+      <Filter>GUIWidgets\Legacy\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIWidgets\Neo\Button.cpp">
+      <Filter>GUIWidgets\Neo\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIWidgets\Neo\Statusbar.cpp">
+      <Filter>GUIWidgets\Neo\Statusbar</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIWidgets\Legacy\Canvas.cpp">
+      <Filter>GUIWidgets\Legacy\Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIWidgets\Legacy\TextBox.cpp">
+      <Filter>GUIWidgets\Legacy\TextBox</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIWidgets\Legacy\Button.cpp">
+      <Filter>GUIWidgets\Legacy\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIWidgets\Neo\WidgetMenu.cpp">
+      <Filter>GUIWidgets\Neo\WidgetMenu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GUICore\GUICore.hpp">
+      <Filter>GUICore</Filter>
+    </ClInclude>
+    <ClInclude Include="GUICore\GUIEvent.hpp">
+      <Filter>GUICore\GUIEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="GUICore\GUIEvents.hpp">
+      <Filter>GUICore\GUIEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="GUICore\GUIObject.hpp">
+      <Filter>GUICore\GUIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GUICore\GUIValues.h">
+      <Filter>GUICore</Filter>
+    </ClInclude>
+    <ClInclude Include="GUICore\GUIWindow.hpp">
+      <Filter>GUICore\GUIWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="GUICore\GUIWidget.hpp">
+      <Filter>GUICore\GUIWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIWidgets\GUIWidgets.hpp">
+      <Filter>GUIWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIWidgets\Legacy\Menu.hpp">
+      <Filter>GUIWidgets\Legacy\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIWidgets\Legacy\MenuItem.hpp">
+      <Filter>GUIWidgets\Legacy\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIWidgets\Neo\Button.hpp">
+      <Filter>GUIWidgets\Neo\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIWidgets\Neo\Statusbar.hpp">
+      <Filter>GUIWidgets\Neo\Statusbar</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIWidgets\GUIWidgetOpt.hpp">
+      <Filter>GUIWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIWidgets\Legacy\Canvas.hpp">
+      <Filter>GUIWidgets\Legacy\Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIWidgets\Legacy\TextBox.hpp">
+      <Filter>GUIWidgets\Legacy\TextBox</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIWidgets\Legacy\Button.hpp">
+      <Filter>GUIWidgets\Legacy\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIWidgets\Neo\WidgetMenu.hpp">
+      <Filter>GUIWidgets\Neo\WidgetMenu</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
