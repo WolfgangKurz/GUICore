@@ -30,8 +30,7 @@ Menu - Unstable, deprecated
 # Sample #
 
 **Create an empty window**
-```
-#!c++
+```c++
 #include "GUICore/GUICore.hpp"
 
 class MainUnloadEvent : public GUIEvent {
