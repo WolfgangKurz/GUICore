@@ -9,7 +9,7 @@ GUICore is C++ based library, so you can build your application very easily, and
 
 
 # Installing #
-**GUICore is Windows libarary**
+**GUICore is Open-source library for Windows platform**
 
 * Download
 * Compile
