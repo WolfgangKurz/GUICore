@@ -9,7 +9,6 @@ GUICore is C++ based library, so you can build your application very easily, and
 
 
 # Installing #
-
 **GUICore is Windows libarary**
 
 * Download
@@ -18,17 +17,14 @@ GUICore is C++ based library, so you can build your application very easily, and
 * Done!
 
 # Documentation #
-
 Not yet.
 
 
 # Extra Widgets #
-
-Menu - Unstable, deprecated
+[Menu - Unstable, deprecated](https://github.com/WolfgangKurz/GUICore/raw/master/Deprecated/Extra%20-%20Menu%2C%20deprecated.zip)
 
 
 # Sample #
-
 **Create an empty window**
 ```c++
 #include "GUICore/GUICore.hpp"
